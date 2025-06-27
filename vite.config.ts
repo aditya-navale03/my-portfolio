@@ -1,20 +1,19 @@
-// vite.config.ts
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
-import path from "path";
-import { componentTagger } from "lovable-tagger";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+import path from 'path'
+import { componentTagger } from 'lovable-tagger'
 
 const mode = process.env.NODE_ENV;
 
 export default defineConfig({
-  base: "/my-portfolio/", // 🔥 MUST have leading and trailing slashes
+  base: '/my-portfolio/',  // ✅ this must match your GitHub repo name exactly
   plugins: [
     react(),
-    mode === "development" && componentTagger(),
+    mode === 'development' && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(__dirname, './src'),
     },
   },
-});
+})
