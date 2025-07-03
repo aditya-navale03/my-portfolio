@@ -4,12 +4,6 @@
 Welcome to my personal portfolio website!  
 I'm **Navale Aditya**, a final-year BCS student and passionate aspiring **Java Full Stack Developer**. This site showcases my projects, skills, and interests in software development and innovative technology.
 
-## 🚀 Live Website
-
-🔗 [Visit My Portfolio](https://your-portfolio-link.com)  
-*(Replace the link with your actual portfolio URL or GitHub Pages link)*
-
----
 
 ## 🧑‍💻 About Me
 
